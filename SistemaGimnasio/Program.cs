@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using SistemaGimnasio.Modelos;
+using SistemaGimnasio.Gestores;
+
+Console.WriteLine("Registrar Usuario");
+
+Console.WriteLine("ingrese el nombre de el usuario");
+string nombre = Console.ReadLine();
